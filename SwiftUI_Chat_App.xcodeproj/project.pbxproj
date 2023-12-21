@@ -60,7 +60,6 @@
 				7F82F13C2B34B11400B5B49B /* ViewModel */,
 				7F82F1392B34B0A600B5B49B /* Api */,
 				7F82F1382B34B0A300B5B49B /* Utills */,
-				7F82F1372B34B0A000B5B49B /* App */,
 				7F82F1292B34AFDA00B5B49B /* SwiftUI_Chat_AppApp.swift */,
 				7F82F12B2B34AFDA00B5B49B /* ContentView.swift */,
 				7F82F12D2B34AFDB00B5B49B /* Assets.xcassets */,
@@ -75,13 +74,6 @@
 				7F82F1302B34AFDB00B5B49B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		7F82F1372B34B0A000B5B49B /* App */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = App;
 			sourceTree = "<group>";
 		};
 		7F82F1382B34B0A300B5B49B /* Utills */ = {
