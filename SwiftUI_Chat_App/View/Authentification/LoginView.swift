@@ -32,6 +32,30 @@ struct LoginView: View {
                 }
                 .padding([.top, .horizontal], 32)
                 
+                HStack {
+                    Spacer()
+                    
+                NavigationLink(destination: Text("Reset password..."),
+                               label: {
+                    Text("Forgot Password?")
+                        .font(.system(size: 13, weight: .semibold))
+                        .padding(.trailing, 28)
+                })
+                }
+                
+                Button(action: {
+                    print("Handle sign up...")
+                }, label: {
+                    Text("Sign In")
+                        .font(.headline)
+                        .foregroundColor(.white)
+                        .frame(width: 340, height: 50)
+                        .background(Color.blue)
+                        .clipShape(Capsule())
+                        .padding()
+                })
+                .shadow(color: .gray, radius: 10, x: 0.0, y: 0.0)
+                
                 Spacer()
             }
             .padding(.leading)
