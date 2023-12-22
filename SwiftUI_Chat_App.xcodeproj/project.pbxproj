@@ -14,6 +14,7 @@
 		7F82F13F2B34B1B700B5B49B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F82F13E2B34B1B700B5B49B /* LoginView.swift */; };
 		7F82F1412B34B1CB00B5B49B /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F82F1402B34B1CB00B5B49B /* RegistrationView.swift */; };
 		7F82F1432B35AAA500B5B49B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F82F1422B35AAA500B5B49B /* CustomTextField.swift */; };
+		7F82F1462B35B26300B5B49B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F82F1452B35B26300B5B49B /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		7F82F13E2B34B1B700B5B49B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		7F82F1402B34B1CB00B5B49B /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		7F82F1422B35AAA500B5B49B /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		7F82F1452B35B26300B5B49B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		7F82F13A2B34B0A800B5B49B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7F82F1442B35B25100B5B49B /* Main */,
 				7F82F13D2B34B19100B5B49B /* Authentification */,
 			);
 			path = View;
@@ -122,6 +125,14 @@
 				7F82F1402B34B1CB00B5B49B /* RegistrationView.swift */,
 			);
 			path = Authentification;
+			sourceTree = "<group>";
+		};
+		7F82F1442B35B25100B5B49B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7F82F1452B35B26300B5B49B /* MainTabView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +210,7 @@
 				7F82F12A2B34AFDA00B5B49B /* SwiftUI_Chat_AppApp.swift in Sources */,
 				7F82F1412B34B1CB00B5B49B /* RegistrationView.swift in Sources */,
 				7F82F1432B35AAA500B5B49B /* CustomTextField.swift in Sources */,
+				7F82F1462B35B26300B5B49B /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,30 +14,30 @@ struct LoginView: View {
     var body: some View {
         NavigationView {
             VStack {
-                VStack(alignment: .leading, spacing: 12) {
-                    HStack { Spacer() }
+        VStack(alignment: .leading, spacing: 12) {
+            HStack { Spacer() }
+            
+            Text("Hello.")
+                .font(.largeTitle)
+                .bold()
+            
+            Text("Welcome Back")
+                .font(.largeTitle)
+                .bold()
+                .foregroundColor(.blue)
+            
+            VStack(spacing: 40) {
+                CustomTextField(imageName: "envelope", placeholderText: "Email",
+                    isSecureField: false,
+                    text: $email)
+                
+                CustomTextField(imageName: "lock", placeholderText: "Password", isSecureField: true,
+                    text: $password)
                     
-                    Text("Hello.")
-                        .font(.largeTitle)
-                        .bold()
-                    
-                    Text("Welcome Back")
-                        .font(.largeTitle)
-                        .bold()
-                        .foregroundColor(.blue)
-                    
-                    VStack(spacing: 20) {
-                        CustomTextField(imageName: "envelope", placeholderText: "Email",
-                            isSecureField: false,
-                            text: $email)
-                        
-                        CustomTextField(imageName: "lock", placeholderText: "Password", isSecureField: true,
-                            text: $password)
-                            
-                    }
-                    .padding([.top, .horizontal], 32)
-                    
-                }
+            }
+            .padding([.top, .horizontal], 32)
+            
+        }
                 .padding(.leading)
                 
                 HStack {
@@ -66,11 +66,12 @@ struct LoginView: View {
                 
                 Spacer()
                 
-                NavigationLink (
-                destination: RegistrationView(),
+                NavigationLink(
+                destination: RegistrationView()
+                .navigationBarBackButtonHidden(true),
                 label: {
                     HStack {
-                        Text("Don't  have an account?")
+                        Text("Don't have an account?")
                             .font(.system(size: 14))
                         
                         Text("Sign Up")
